@@ -5,8 +5,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Log.css">
-    <title>PonTicLog</title>
+    <link rel="stylesheet" href="Reg.css">
+    <title>PonTicReg</title>
 </head>
 
 <body>
@@ -14,26 +14,33 @@
         <img src="img/Bucar_Logo.png" width="150">
     </header>
     <form class="formulario">
-        <h1>Ingresa</h1>
+        <h1>¡Regístrate gratis!</h1>
         <div class="contenedor">
 
             <div class="input-cont">
+                <i class="fa-solid fa-user icon"></i>
+                <input type="text" placeholder="Nombre Completo">
+            </div>
+            <div class="input-cont">
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <input type="text" placeholder="Teléfono">
+            </div>
+            <div class="input-cont">
                 <i class="fa-solid fa-envelope icon"></i>
-                <input type="text" placeholder="Correo electrónico institucional">
+                <input type="text" placeholder="Correo electrónico">
             </div>
             <div class="input-cont">
                 <i class="fa-solid fa-key icon"></i>
                 <input type="password" placeholder="Contraseña">
             </div>
-            <input type="submit" value="Ingresa" class="btn">
+            <input type="submit" value="Regístrate" class="btn">
             <!-- El input, línea de arriba, se le agrega la parte donde se almacena los datos (JS)
             ya que, ahorita, si se ingresan datos, borrará el formulario y lo recargará -->
-
-            <p>Al ingresar, aceptar nuestras
+            <p>Al registrarte, aceptar nuestras
                 <a class="linktyc" href="Tyc.html">Condiciones de uso y Política de privacidad.</a>
             </p>
-            <p>¿No tienes cuenta? ¡Crea una gratis acá!
-                <a class="link" href="Register.html">Crear cuenta</a>
+            <p>¿Ya tienes cuenta?
+                <a class="link" href="login.html">Iniciar sesión</a>
             </p>
         </div>
     </form>

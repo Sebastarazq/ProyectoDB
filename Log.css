@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #5a3c82;
+    background-color: #242440;
     padding: 2.4rem 3rem;
     margin: 0%;
 }
@@ -33,7 +33,7 @@ header {
 
 h1 {
     text-align: center;
-    color: rgb(177, 119, 197);
+    color: rgb(66, 185, 169);
     font-size: 33px;
     font-family: 'Lato', sans-serif;
 }
@@ -62,7 +62,7 @@ input[type="password"] {
     width: 100%;
     color: white;
     font-size: 20px;
-    background: rgb(177, 119, 197);
+    background: rgb(66, 185, 169);
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;

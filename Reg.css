@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #283134;
-    padding: 2rem 3rem;
+    background-color: #242440;
+    padding: 2.4rem 3rem;
     margin: 0%;
 }
 
@@ -27,13 +27,13 @@ header {
 
 .formulario {
     background: whitesmoke;
-    margin-top: 150px;
-    padding: 3px;
+    margin-top: 1200px;
+    padding: 5px;
 }
 
 h1 {
     text-align: center;
-    color: cadetblue;
+    color: rgb(66, 185, 169);
     font-size: 33px;
     font-family: 'Lato', sans-serif;
 }
@@ -46,12 +46,31 @@ input[type="password"] {
     border: none;
 }
 
+select {
+    font-size: 24px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
 .input-cont {
     margin-bottom: 15px;
     border: 1px solid #aaa;
 }
 
 .icon {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.fa-phone {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.fa-people-group {
     min-width: 50px;
     text-align: center;
     color: #999;

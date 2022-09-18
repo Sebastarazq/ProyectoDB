@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <img src="img/Bucar_Logo.png" width="150">
+        <img src="img/logopontic.png" width="200px">
     </header>
     <form class="formulario">
         <h1>¡Regístrate gratis!</h1>
@@ -33,7 +33,20 @@
                 <i class="fa-solid fa-key icon"></i>
                 <input type="password" placeholder="Contraseña">
             </div>
+
+            <div>
+                <div class="input-cont">
+                    <i class="fa-sharp fa-solid fa-people-group"></i>
+                    <select name="grupos" id="group">
+                    <option value="Select">Seleccione:</option>
+                    <option value="Admin">Administrador</option>
+                    <option value="Coor">Coordinador</option>
+                    <option value="Empl">Empleado</option>
+                  </select>
+                </div>
+            </div>
             <input type="submit" value="Regístrate" class="btn">
+
             <!-- El input, línea de arriba, se le agrega la parte donde se almacena los datos (JS)
             ya que, ahorita, si se ingresan datos, borrará el formulario y lo recargará -->
             <p>Al registrarte, aceptar nuestras

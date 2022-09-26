@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #242440;
-    padding: 2.4rem 3rem;
+    padding: 2rem 3rem;
     margin: 0%;
 }
 
@@ -39,16 +39,20 @@ h1 {
 }
 
 input[type="text"],
-input[type="password"] {
-    font-size: 24px;
-    width: 82%;
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+    font-size: 20px;
+    width: 80%;
     padding: 10px;
     border: none;
 }
 
 select {
-    font-size: 24px;
-    width: 82%;
+    font-size: 20px;
+    width: 80%;
     padding: 10px;
     border: none;
 }
@@ -71,6 +75,24 @@ select {
 }
 
 .fa-people-group {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.fa-cake-candles {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.fa-building-columns {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.fa-user-graduate {
     min-width: 50px;
     text-align: center;
     color: #999;

@@ -23,15 +23,71 @@
             </div>
             <div class="input-cont">
                 <i class="fa-sharp fa-solid fa-phone"></i>
-                <input type="text" placeholder="Teléfono">
+                <input type="tel" placeholder="Teléfono">
             </div>
             <div class="input-cont">
                 <i class="fa-solid fa-envelope icon"></i>
-                <input type="text" placeholder="Correo electrónico">
+                <input type="email" placeholder="Correo electrónico">
             </div>
+            <div class="input-cont">
+                <i class="fa-solid fa-cake-candles"></i>
+                <input type="date" placeholder="Fecha de nacimiento">
+            </div>
+            <div class="input-cont">
+                <i class="fa-sharp fa-solid fa-people-group"></i>
+                <select name="semestreaprob" id="group">
+                        <option value="Select">Semestre aprobado:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                      </select>
+            </div>
+            <div class="input-cont">
+                <i class="fa-solid fa-building-columns"></i>
+                <select name="facultad" id="group">
+                        <option value="Select">Facultad:</option>
+                        <option value="AdminEmpr">Administración de empresas</option>
+                        <option value="AdminNegInt">Administración de negocios internacionales</option>
+                        <option value="C.Pol">Ciencias Políticas y Gobierno</option>
+                        <option value="ComSoc">Comunicación social y periodismo</option>
+                        <option value="der">Derecho</option>
+                        <option value="DG">Diseño gráfico</option>
+                        <option value="IngAmb">Ingeniería ambiental</option>
+                        <option value="IngCiv">Ingeniería Civil</option>
+                        <option value="IngElc">Ingeniería electrónica</option>
+                        <option value="IngElc2">Ingeniería eléctrica</option>
+                        <option value="IngInds">Ingeniería industrial</option>
+                        <option value="IngMec">Ingeniería Mecánica</option>
+                        <option value="IngBonita">Ingeniería de Sistemas e informática</option>
+                        <option value="Psi">Psicología</option>
+                      </select>
+            </div>
+            <div class="input-cont">
+                <i class="fa-solid fa-user-graduate"></i>
+                <input type="number" max="5" placeholder="Promedio ponderado hasta la fecha">
+            </div>
+
+
             <div class="input-cont">
                 <i class="fa-solid fa-key icon"></i>
                 <input type="password" placeholder="Contraseña">
+            </div>
+
+            <div>
+                <div class="input-cont">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <select name="uni" id="group">
+                        <option value="Uni">Seleccione:</option>
+                        <option value="Ponti">UNIVERSIDAD PONTIFICIA BOLIVARIANA SECCIONAL BUCARAMANGA</option>
+                    </select>
+                </div>
             </div>
 
             <div>
@@ -45,16 +101,17 @@
                   </select>
                 </div>
             </div>
-            <input type="submit" value="Regístrate" class="btn">
+        </div>
+        <input type="submit" value="Regístrate" class="btn">
 
-            <!-- El input, línea de arriba, se le agrega la parte donde se almacena los datos (JS)
+        <!-- El input, línea de arriba, se le agrega la parte donde se almacena los datos (JS)
             ya que, ahorita, si se ingresan datos, borrará el formulario y lo recargará -->
-            <p>Al registrarte, aceptar nuestras
-                <a class="linktyc" href="Tyc.html">Condiciones de uso y Política de privacidad.</a>
-            </p>
-            <p>¿Ya tienes cuenta?
-                <a class="link" href="login.html">Iniciar sesión</a>
-            </p>
+        <p>Al registrarte, aceptar nuestras
+            <a class="linktyc" href="Tyc.html">Condiciones de uso y Política de privacidad.</a>
+        </p>
+        <p>¿Ya tienes cuenta?
+            <a class="link" href="login.html">Iniciar sesión</a>
+        </p>
         </div>
     </form>
 </body>

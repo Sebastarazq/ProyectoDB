@@ -23,11 +23,8 @@ $conex = mysqli_connect("localhost", "root", "", "pontic");
 
 <body>
     <div class="head"></div>
-    <div class="pontilaunchHome">
-        <h1>pontilaunch</h1>
-    </div>
-    <div class="pontilaunch1Home">
-        <h1>pontilaunch</h1>
+    <div class="ponticHome">
+        <h1>PonTic</h1>
     </div>
     <!-- Icono casa -->
     <div class="casa">

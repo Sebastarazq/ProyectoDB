@@ -206,3 +206,166 @@ body {
     color: #070707;
     font-weight: 400;
 }
+
+.pub {
+    width: 800px;
+    height: 350px;
+    background: #D9D9D9;
+    position: relative;
+    left: 20px;
+    top: 100px;
+    border-radius: 3vh;
+    margin-bottom: 300px;
+}
+
+.pub .tit {
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: right;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+
+.pub .sed {
+    position: relative;
+    top: 69%;
+    left: 72%;
+    font-size: 16px;
+    width: 180px;
+    text-align: right;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+
+.pub .yt {
+    position: relative;
+    top: 0%;
+    left: 60%;
+    display: flex;
+    border-radius: 3vh;
+}
+
+.pub .des {
+    position: relative;
+    top: -20%;
+    left: 5%;
+    font-size: 16px;
+    width: 400px;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+
+.pub .fec {
+    position: relative;
+    top: 0%;
+    left: 85%;
+    font-size: 16px;
+    width: 150px;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+
+.cu {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    font-size: 16px;
+    width: 800px;
+    height: 200px;
+    background-color: #D9D9D9;
+    border-radius: 11px;
+}
+
+.pub button .boton {
+    left: 50%;
+    position: relative;
+}
+
+.pub .coment1 {
+    left: 0%;
+    top: 0%;
+    display: flex;
+    position: relative;
+    background-color: #F0F0F0;
+    border-radius: 11px;
+    border: 0ch;
+    width: 40%;
+    height: 20%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.pub .coment2 {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    height: 35px;
+    width: 75px;
+    align-items: center;
+    border: 0ch;
+    border-radius: 11px;
+    background-color: #a97ec5;
+    font-family: 'SF Pro';
+    font-size: 16px;
+}
+
+.coment2:hover {
+    background-color: #FCA180;
+}
+
+.coments {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    height: 100px;
+}
+
+.pub .contact {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    height: 35px;
+    width: 111px;
+    align-items: center;
+    border: 0ch;
+    padding: 0px 5px;
+    border-radius: 11px;
+    background-color: #a1a1a1;
+    font-family: 'SF Pro';
+    font-size: 16px;
+    text-align: center;
+}
+
+.califi {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    display: flex;
+}
+
+.pontilaunch {
+    /*titulo de la pagina*/
+    position: absolute;
+    width: 740px;
+    height: 156.18px;
+    left: 580px;
+    top: 150px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 153px;
+    text-align: center;
+    color: #F77208;
+    background-color: lightgray;
+}

@@ -1,0 +1,208 @@
+body {
+    font-family: 'SF Pro';
+    position: absolute;
+    background-color: lightgray;
+}
+
+.rectanguloUser {
+    /* Rectangulo naranja */
+    width: 333px;
+    height: 120px;
+    background: #71e096;
+    border: 23px;
+    position: fixed;
+    right: 3%;
+    top: 12%;
+    border-radius: 1.5vh;
+}
+
+.rectanguloGest {
+    width: 333px;
+    height: 75px;
+    background: #F56262;
+    position: fixed;
+    right: 3%;
+    top: 27%;
+    border-radius: 1.5vh;
+}
+
+.rectanguloadmuser {
+    /* Rectangulo gris */
+    width: 333px;
+    height: 75px;
+    background: #ff7eff;
+    position: fixed;
+    right: 3%;
+    top: 38%;
+    border-radius: 1.5vh;
+}
+
+.usuarioIcon {
+    /* icono usuario parte izquierda  */
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 15%;
+    right: 18%;
+}
+
+.usuarioText1 h1 {
+    position: fixed;
+    right: 6.25%;
+    top: 15%;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 17px;
+    text-align: center;
+    color: #070707;
+    font-weight: 400;
+}
+
+.usuarioText h1 {
+    position: fixed;
+    right: 8%;
+    top: 15%;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 17px;
+    text-align: center;
+    color: #070707;
+    font-weight: 400;
+}
+
+.Textingdb h1 {
+    position: fixed;
+    right: 5%;
+    top: 29%;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 10px;
+    text-align: center;
+    color: #070707;
+    font-weight: 400;
+}
+
+.ponticHome {
+    /*titulo de la pagina arriba a la derecha */
+    position: absolute;
+    left: 37px;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 17px;
+    text-align: center;
+    color: #F77208;
+}
+
+.casa img {
+    /*icono del home arriba a la izquierda*/
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 5%;
+    right: 11.3%;
+}
+
+.salir img {
+    /*icono de cerrar sesion arriba a la izquierda*/
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 5%;
+    right: 3%;
+}
+
+.admfoto img {
+    /*icono de gestion de iniciativas*/
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    top: 29%;
+    right: 17.4%;
+}
+
+.comentario img {
+    /*icono de comentario arriba a la izquierda*/
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 5%;
+    right: 7%;
+}
+
+.textgest h1 {
+    position: fixed;
+    right: 5%;
+    top: 29%;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: #070707;
+    font-weight: 400;
+}
+
+.adminuser h1 {
+    position: fixed;
+    right: 5%;
+    top: 40%;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: #070707;
+    font-weight: 400;
+}
+
+.admuserIcon img {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    top: 40%;
+    right: 17.4%;
+}
+
+.rectanguloProyect {
+    /* Rectangulo rojo */
+    width: 333px;
+    height: 75px;
+    background: #ff7eff;
+    position: fixed;
+    right: 3%;
+    top: 27%;
+    border-radius: 1.5vh;
+}
+
+.estudiantetext h1 {
+    /* texto usuario en rectangulo amarillo */
+    position: fixed;
+    right: 7%;
+    top: 15.3%;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 17px;
+    text-align: center;
+    color: #070707;
+    font-weight: 400;
+}
+
+.proyectIcon {
+    /* icono proyecto parte izquierda */
+    position: fixed;
+    width: px;
+    height: 1px;
+    top: 29%;
+    right: 17.5%;
+}
+
+.proyecText h1 {
+    /* texto proyecto en rectangulo rojo */
+    position: fixed;
+    right: 4%;
+    top: 29%;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: #070707;
+    font-weight: 400;
+}

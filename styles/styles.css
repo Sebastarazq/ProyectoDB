@@ -207,18 +207,490 @@ body {
     font-weight: 400;
 }
 
-.pub {
+/*Registerestudiante*/
+.headerdetodo{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: #252440;
+}
+
+.logo1{
+    width: 80px;
+}
+
+.headerdetodo h1{
+    color: #F77208 ;
+}
+
+.formregest {
+    margin: auto;
+    position: relative;
+    top: 50px;
+    background-color: aliceblue;
+    width: 50%;
+    height: 500px;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.volver1 {
+    background-color: aquamarine;
+    position: relative;
+    top: 10px;
+    margin: auto;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.volver1 a {
+    color: #fff;
+    position: relative;
+    top: 5px;
+}
+
+.txtregistro {
+    padding-top: 15px;
+}
+
+.aestudiante {
+    width: 15%;
+    height: 22px;
+    position: absolute;
+    top: 85px; left: 350px;
+    background-color: #252440; 
+    text-align: center;
+    border-radius: 15px;
+}
+
+.aestudiante a {
+    color: #fff;
+}
+
+.ausuario {
+    width: 15%;
+    height: 22px;
+    position: absolute;
+    top: 85px; left: 220px;
+    background-color: #252440; 
+    text-align: center;
+    border-radius: 15px;
+}
+
+.ausuario a {
+    color: #fff;
+}
+
+.pfecharegest {
+    position: relative;
+}
+
+.registra {
+    position: relative;
+    left: 170px; top: 30px;
+    width: 50%;
+    display: block;
+    align-items: center;
+}
+
+.terminos2 {
+    position: relative;
+    left: -70px; top: 5px;   
+    text-align: left;
+    width: 150%;
+}
+
+.terminos2 a {
+    position: relative;
+    top: 0;
+    text-align: left;
+}
+
+.elg1 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.elg2 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.elg3 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.elg4 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.elg5 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.elg6 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.elg7 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.elg8 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.elg9 {
+    background-color: lightgray;
+    margin-bottom: 3%;
+}
+
+.btnregister {
+    background-color: lightgray;
+}
+
+/*Registro*/
+
+.formregest1 {
+    margin: auto;
+    position: relative;
+    top: 50px;
+    background-color: aliceblue;
+    width: 50%;
+    height: 400px;
+    border-radius: 45px;
+    text-align: center;
+}
+
+/*quejas*/
+
+.casa img{ /*icono del home arriba a la izquierda*/
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 5%;
+    left: 75%;
+}
+
+.comentario img{ /*icono de comentario arriba a la izquierda*/
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 5%;
+    left: 80%;
+}
+  .salir img{ /*icono de cerrar sesion arriba a la izquierda*/
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 5%;
+    left: 85%;
+}
+
+/*Publicar*/
+
+.formregest2 {
+    margin: auto;
+    position: relative;
+    top: 50px;
+    background-color: aliceblue;
+    width: 50%;
+    height: 400px;
+    border-radius: 45px;
+    text-align: center;
+}
+
+/*Mensajes*/
+
+.mensjent h1{
+    width: 25%;
+    text-align: center;
+    background-color: #252440;
+    color: #fff;
+    position: relative;
+    left: 40px;
+    border-radius: 15px;
+}
+
+.mensojo{
+    width: 500px;
+    height: 100px;
+    background: #D9D9D9;
+    position:relative;
+    left:40px;
+    top: 10px;
+    border-radius: 3vh;
+    z-index: -1;
+    
+}
+
+.menk{
+    position: relative;
+    top:10%;
+    left: 5%;
+    font-size: 16px;
+    width: 70%;
+    
+    display:flex ;
+}
+.enc{
+    position: relative;
+    top:10%;
+    left: 5%;
+    font-size: 16px;
+    width: 100%;
+    text-align: right;
+    display:flex;
+    font-weight: 1000;
+}
+.cork{
+    position: relative;
+    top:10%;
+    left: 5%;
+    font-size: 16px;
+    width: 100%;
+    text-align: right;
+    display:flex ;
+}
+
+/*login*/
+
+.formregest3 {
+    margin: auto;
+    position: relative;
+    top: 150px;
+    background-color: aliceblue;
+    width: 30%;
+    height: 200px;
+    border-radius: 45px;
+    text-align: center;
+}
+
+/*Inicio*/
+
+.loginback {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+}
+
+.backgroundimg1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    height: 11%;
+    position: fixed;
+    top: 0%; left: 50%;
+    display: flex;
+}
+
+.imglog1{
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.h1log {
+    position: relative;
+    left: -10px; top: 8px;
+    font-size: 30px;
+    color: #F77208;
+}
+
+.login1 {
+    width: 50%;
+    height: 40%;
+    position: fixed;
+    top: 15%; left: 50%;
+}
+
+.h1log1 {
+    width: 300px;
+    color: #fff;
+    position: relative;
+    left: 8%;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.plog1 {
+    width: 350px;
+    color: #fff;
+    position: relative;
+    top: 3%; left: 8%;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btnlog1 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 55%; left: 50%;
+}
+
+.btnlog1_1{
+    background-color: #7FFBE3;
+    color: #fff;
+    width: 13%;
+    height: 6%;
+    font-size: 120%;
+    font-weight: center;
+    border-radius: 45px;
+    border: #7FFBE3;
+    position: relative;
+    left: 4%;
+}
+
+.btnlog1_1 a {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    left: 35px; top: 8px;
+}
+
+.btnlog1_1:hover{
+    background-color: #04B4AE;
+    color: #fff;
+    width: 13%;
+    height: 6%;
+    font-size: 120%;
+    font-weight: center;
+    border-radius: 45px;
+    border: 2px solid #fff;
+    position: relative;
+    left: 4%;
+}
+
+.btnlog1_2 {
+    background-color: #7FFBE3;
+    color: #fff;
+    width: 13%;
+    height: 6%;
+    font-size: 120%;
+    font-weight: center;
+    border-radius: 45px;
+    border: #7FFBE3;
+    position: relative;
+    left: 4%; top: 4%;
+}
+
+.btnlog1_2 a {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    left: 35px; top: 8px;
+}
+
+.btnlog1_2:hover{
+    background-color: #04B4AE;
+    color: #fff;
+    width: 13%;
+    height: 6%;
+    font-size: 120%;
+    font-weight: center;
+    border-radius: 45px;
+    border: 2px solid #fff;
+    position: relative;
+    left: 4%;
+}
+
+.btnlog1_3 {
+    background-color: #252440;
+    width: 17%;
+    height: 6%;
+    font-size: 120%;
+    text-align: left;
+    color: #fff;
+    border: #252440;
+    border-bottom: 3px solid #7FFBE3;
+    position: relative;
+    left: 4%; top: 8%;
+}
+
+.btnlog1_3:hover{
+    background-color: #252440;
+    width: 18%;
+    height: 6%;
+    font-size: 130%;
+    text-align: left;
+    color: #fff;
+    border: #252440;
+    border-bottom: 3px solid #7FFBE3;
+    position: relative;
+    left: 4%; top: 8%;
+}
+
+/*Home*/
+
+.selecc{
+    width: 30px;
+    height: 5px;
+    background: aquamarine;
+    position:absolute;
+    left: 75%;
+    top: 9.5%;
+    border-radius: 1vh;
+    z-index: 1;
+}
+
+.rectanguloUser { /* Rectangulo naranja */ 
+
+    width: 285px;
+    height: 10%;
+    background: aquamarine;
+    position: absolute;
+    left: 40%; top: 10px;
+    display: flex;
+}
+
+.rectanguloUser h1{ /* Rectangulo naranja */ 
+    position: relative;
+    top: -10px;
+    color: #252440;
+
+}
+
+.usuarioIcon { /* icono usuario parte izquierda  */
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 22%;
+    left: 75%;
+}
+
+.pub{
     width: 800px;
     height: 350px;
     background: #D9D9D9;
-    position: relative;
-    left: 20px;
+    position:relative;
+    left:20px;
     top: 100px;
     border-radius: 3vh;
     margin-bottom: 300px;
 }
-
-.pub .tit {
+  
+  
+  
+.pub .tit{
     position: relative;
     top: 10%;
     left: 5%;
@@ -228,42 +700,44 @@ body {
     display: flex;
     padding: 0%;
     margin: 0%;
+  
 }
-
-.pub .sed {
+  
+  
+.pub .sed{
     position: relative;
-    top: 69%;
+    top:69%;
     left: 72%;
     font-size: 16px;
     width: 180px;
     text-align: right;
-    display: flex;
+    display:flex ;
     padding: 0%;
     margin: 0%;
 }
-
+  
 .pub .yt {
     position: relative;
-    top: 0%;
+    top:0%;
     left: 60%;
     display: flex;
     border-radius: 3vh;
 }
-
-.pub .des {
+  
+.pub .des{
     position: relative;
-    top: -20%;
-    left: 5%;
+    top:-20%;
+    left:5%;
     font-size: 16px;
     width: 400px;
     display: flex;
     padding: 0%;
     margin: 0%;
 }
-
-.pub .fec {
+  
+.pub .fec{
     position: relative;
-    top: 0%;
+    top:0%;
     left: 85%;
     font-size: 16px;
     width: 150px;
@@ -272,7 +746,8 @@ body {
     margin: 0%;
 }
 
-.cu {
+.cu{
+    
     position: relative;
     left: 0%;
     top: 0%;
@@ -283,13 +758,13 @@ body {
     background-color: #D9D9D9;
     border-radius: 11px;
 }
-
-.pub button .boton {
+  
+.pub button .boton{
     left: 50%;
     position: relative;
 }
 
-.pub .coment1 {
+.pub .coment1{
     left: 0%;
     top: 0%;
     display: flex;
@@ -302,8 +777,8 @@ body {
     padding: 10px 20px;
     box-sizing: border-box;
 }
-
-.pub .coment2 {
+  
+.pub .coment2{
     position: relative;
     left: 0%;
     top: 0%;
@@ -313,59 +788,10 @@ body {
     align-items: center;
     border: 0ch;
     border-radius: 11px;
-    background-color: #a97ec5;
+    background-color: #FFD480;
     font-family: 'SF Pro';
     font-size: 16px;
 }
-
 .coment2:hover {
     background-color: #FCA180;
-}
-
-.coments {
-    position: relative;
-    left: 0%;
-    top: 0%;
-    display: flex;
-    height: 100px;
-}
-
-.pub .contact {
-    position: relative;
-    left: 0%;
-    top: 0%;
-    display: flex;
-    height: 35px;
-    width: 111px;
-    align-items: center;
-    border: 0ch;
-    padding: 0px 5px;
-    border-radius: 11px;
-    background-color: #a1a1a1;
-    font-family: 'SF Pro';
-    font-size: 16px;
-    text-align: center;
-}
-
-.califi {
-    position: relative;
-    left: 0%;
-    top: 0%;
-    display: flex;
-}
-
-.pontilaunch {
-    /*titulo de la pagina*/
-    position: absolute;
-    width: 740px;
-    height: 156.18px;
-    left: 580px;
-    top: 150px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 153px;
-    text-align: center;
-    color: #F77208;
-    background-color: lightgray;
 }
